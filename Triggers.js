@@ -2,7 +2,7 @@ $(document).ready(function() {
   //Recent Follower (Twitch API Required)
   $.ajax({
     type: "GET",
-    url: "https://api.twitch.tv/kraken/channels/videogameroulette/follows/",
+    url: "https://api.twitch.tv/kraken/channels/NAJ263/follows/",
     headers: {
       'Client-ID': 'ql93k2lg41xsnebz7kgyfjsrg28j532'
     },
@@ -47,7 +47,7 @@ $(document).ready(function() {
   //Current Game (Twitch API Required)
   $.ajax({
     type: "GET",
-    url: "https://api.twitch.tv/kraken/channels/videogameroulette/",
+    url: "https://api.twitch.tv/kraken/channels/NAJ263/",
     headers: {
       'Client-ID': 'ql93k2lg41xsnebz7kgyfjsrg28j532'
     },
